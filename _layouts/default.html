@@ -17,6 +17,8 @@
     <link rel='icon' sizes='32x32' type='image/png' href='/images/favicons/favicon-32x32.png'>
     <link rel='manifest' href='/images/favicons/manifest.webmanifest'>
 
+
+
   </head>
 
   <body>
@@ -33,7 +35,7 @@
           <nav>
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about#contact-me">Contact</a>
+            <a href="{{ site.baseurl }}/about#contact-me" onclick="highlight">Contact</a>
             <a href="https://github.com/MrABKhan">Github</a>
           </nav>
         </header>
@@ -53,5 +55,18 @@
     </div>
 
     {% include analytics.html %}
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"
+            type="text/javascript" charset="utf-8"></script>
+    <script	src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+               type="text/javascript" charset="utf-8"></script>
+
+    <script>
+        function highlight() {
+            var animTime = 1000;
+            $('#contact-me').addClass('pulse', animTime).removeClass('pulse', animTime);
+        }
+    </script>
+
   </body>
 </html>

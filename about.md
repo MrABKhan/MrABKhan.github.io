@@ -14,13 +14,13 @@ Currently I'm working as a Assistant Software Developer at [etcBase](https://www
  Recently I've started to interact with multiple Open Source Projects and I must say I love it. I'm also quite fond of travelling and doing some amateur photography on my weekend strolls or day-to-day commuting(Hoping to share some photos soon) plus I've grown quite fond of retro-technology from the 80's & 90's, those are some interesting marvels of early computer engineering!
 Apart from that I consider myself a student of the stoic branch of philosophy as I read the works of Seneca, Epictetus and Marcus Aurelius in order to find the meaning of our Existence or if there is any!?
 
-### My Reading List
+## My Reading List
 `TBA`
-### Blogs You Should Follow!  
+## Blogs You Should Follow!  
 `TBA`
   
   
-### Contact me  
-  
+## Contact me  
 Email: [theawesomekhan@gmail.com](mailto:theawesomekhan@gmail.com)
+
 LinkedIn: [AbuBakar Khan](https://www.linkedin.com/in/mrabkhan)
