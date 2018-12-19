@@ -11,23 +11,11 @@ layout: default
       <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified" />
        •
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">AbuBakar Khan</span>
-      <meta itemprop="email" content="theawesomekhan@gmail.com" />
-      <meta itemprop="image" content="{{ author.image }}" />
-      {% if author.email %}
-      <a
-              class="fa fa-envelope"
-              title="contact me via e-mail"
-              href="mailto:{{ site.email }}">&nbsp;</a>
-      {% endif %}
+      <span itemprop="name"  href="mailto:theawesomekhan@gmail.com">AbuBakar Khan</span>
+
     </span>
       <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="{{ site.name }}" />
-      <span itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-        <meta itemprop="url" content="{{ site.url }}/favicon.png" />
-        <meta itemprop="height" content="142" />
-        <meta itemprop="width" content="128" />
-      </span>
     </span>
       <meta itemprop="mainEntityOfPage" content="{{ site.url }}" />
     </p>
