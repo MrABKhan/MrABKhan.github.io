@@ -9,10 +9,10 @@ layout: default
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
       <meta content="{{ modified | date_to_xmlschema }}" itemprop="dateModified" />
-      {% if author %} •
+       •
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <span itemprop="name">{{ author.name }}</span>
-      <meta itemprop="email" content="{{ author.email }}" />
+      <span itemprop="name">AbuBakar Khan</span>
+      <meta itemprop="email" content="theawesomekhan@gmail.com" />
       <meta itemprop="image" content="{{ author.image }}" />
       {% if author.email %}
       <a
@@ -29,13 +29,7 @@ layout: default
         <meta itemprop="width" content="128" />
       </span>
     </span>
-      {% endif %}
       <meta itemprop="mainEntityOfPage" content="{{ site.url }}" />
-      <span itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
-      <meta itemprop="url" content="{{ site.url }}/favicon.png" />
-      <meta itemprop="height" content="142" />
-      <meta itemprop="width" content="128" />
-    </span>
     </p>
     </header>
 
