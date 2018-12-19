@@ -22,4 +22,5 @@ Apart from that I consider myself a student of the stoic branch of philosophy as
   
 ### Contact me  
   
-[theawesomekhan@gmail.com](mailto:theawesomekhan@gmail.com)
+Email: [theawesomekhan@gmail.com](mailto:theawesomekhan@gmail.com)
+LinkedIn: [AbuBakar Khan](https://www.linkedin.com/in/mrabkhan)
