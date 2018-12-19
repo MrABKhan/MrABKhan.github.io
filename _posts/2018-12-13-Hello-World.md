@@ -1,6 +1,6 @@
 --- 
 layout: post    
-title: "Hello World"  
+title: "Hello World: My Introduction to Blogging"  
 excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
 tags: [jekyll,blogging,introduction]
