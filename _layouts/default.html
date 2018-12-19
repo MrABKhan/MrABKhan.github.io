@@ -26,14 +26,14 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
-            <h1 class="site-name" style="text-decoration: none;"><a href="{{ site.baseurl }}/">{{ site.name }}</h1>
+            <h1 class="site-name" style="text-decoration: none;"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav>
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}#Footer">Contact</a>
+            <a href="#contact">Contact</a>
             <a href="https://github.com/MrABKhan">Github</a>
           </nav>
         </header>
@@ -46,7 +46,7 @@
 
     <div class="wrapper-footer">
       <div class="container">
-        <footer class="footer">
+        <footer class="footer" id="contact">
           {% include svg-icons.html %}
         </footer>
       </div>
