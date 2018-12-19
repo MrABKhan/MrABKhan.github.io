@@ -3,14 +3,15 @@ layout: post
 title: "Hello World"  
 excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
-keywords:
-  - blogging
-  - development
-  - How to start blogging as a developer
-bakar:
-  name: Abu Bakar Khan
-  email: theawesomekhan@gmail.com
+tags: [jekyll,blogging,introduction]
 author: bakar
+keywords:
+  - introduction to blogging
+  - jekyll blogging
+  - how to start a blog
+  - blogging as a developer
+  - developer journal
+  - theautodidact.me
 ---    
     
  ![_config.yml]({{ site.baseurl }}/images/helloworld.png)  
