@@ -4,6 +4,10 @@ title: "Hello World"
 excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
 tags: [jekyll,blogging,introduction]
+bakar:
+   name: AbuBakarKhan
+   email: theawesomekhan@gmail.com
+   web: http://www.theautodidact.me
 author: bakar
 keywords:
   - introduction to blogging
