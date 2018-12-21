@@ -265,6 +265,11 @@ nav {
   text-decoration: underline;
 }
 
+.post-header .post-meta{
+  text-decoration: none;
+  color: black;
+}
+
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
