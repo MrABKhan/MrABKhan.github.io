@@ -1,6 +1,6 @@
 --- 
 layout: post    
-title: "Using GrayLog for Distributed Log Management"  
+title: "Using GrayLog for Distributed Log Management: Installing GrayLog"  
 excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
 tags: [graylog,graylog,enterpriselogging,linux,windows]
@@ -37,4 +37,38 @@ These are the newer and more beefed up version of the Collector. GrayLog Collect
 
 
 ## How to Use GrayLog with Windows/Linux Logs using Collectors :
-Thus 
+Thus in this post, I am primarily going to explain how to use GrayLog Collectors with a GrayLog Server on a Linux or Windows Based System. 
+
+### 1. Installing GrayLog Server:
+GrayLog can be installed on a number of [Operating Systems](http://docs.graylog.org/en/2.5/pages/installation.html) and [Virtual Machines](http://docs.graylog.org/en/2.5/pages/installation/virtual_machine_appliances.html). I'm going to use Docker for this tutorial.
+#### Requirements:
+1. [Graylog for Docker](https://hub.docker.com/r/graylog/graylog/)
+2. [MongoDB](https://hub.docker.com/_/mongo/)
+3. [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/6.x/docker.html)
+
+#### QuickStart GrayLog on Docker
+To simply start GrayLog without any other customization, we can run the following commands to create the environment for GrayLog to run.
+##### 1. Run MongoDB
+```
+$ docker run --name mongo -d mongo:3
+```
+##### 2. Time for ElasticSearch
+```
+$ docker run --name elasticsearch \
+    -e "http.host=0.0.0.0" -e "xpack.security.enabled=false" \
+    -d docker.elastic.co/elasticsearch/elasticsearch:6.5.1
+```
+##### 3. Linked and Loaded for GrayLog
+```
+$ docker run --link mongo --link elasticsearch \
+    -p 9000:9000 -p 12201:12201 -p 514:514 \
+    -e GRAYLOG_WEB_ENDPOINT_URI="http://127.0.0.1:9000/api" \
+    -d graylog/graylog:2.5
+```
+
+Note that we have to use the same ports opened here through *-p 9000:9000* for our inputs in TCP or if you want to open UDP ports then *-p 9000:9000/udp*.
+
+### Next Steps
+GrayLog should be up and running after this setup on your docker! I will update setting up collectors on windows and linux in the next part of this blog :)
+
+**-  Bakar**
