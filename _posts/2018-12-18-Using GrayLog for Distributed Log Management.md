@@ -23,4 +23,14 @@ During my internship our primary usage was for accumulating the logs from our CI
 I won't go onto the details of how GrayLog works internally since that information can be found in [GrayLog's Documentation](http://docs.graylog.org/en/2.5/). Thus the following image(taken from the documentation) shows a simplified way of how GrayLog works with it's collectors.
 ({{ site.baseurl }}/images/graylog_arc.png)
 
+### Sidecar/Collector System of GrayLog:
+GrayLog implements a system with different "collector" programs running to collect logs and report them to the central server or server cluster.
 
+There are then two versions of these available : 
+1. GrayLog Collector 
+2. GrayLog Collector Sidecar
+
+#### GrayLog Collector
+GrayLog Collectors are lightweight java applications which read log files natively and send them to the server( or server cluster ) using the [GELF](http://docs.graylog.org/en/2.5/pages/gelf.html) format.
+#### GrayLog Collector Sidecar
+These are the newer and more beefed up version of the Collector. GrayLog Collector Sidecars are complete configuration managment systems which work with different log collection systems as in WinLogBeat,NxLog etc. They are connected via a REST API which enables the GrayLog Server to change configurations or restart/run/shutdown sidecars without needing to manually handle them on each host machine.
