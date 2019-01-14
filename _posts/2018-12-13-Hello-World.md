@@ -34,7 +34,7 @@ like [Medium](https://medium.com/), [Dev Community](https://dev.to/), [SimplePro
 ### 2. Giving Back to the Community  
   As mentioned above I found all these solution through collectively searching through blogs, stack-overflow questions and documentation. So I felt I should I also contribute my solutions and apart from helping me in my own documentation if someone in the world of computing has similar problems, maybe my writing will help them. Thus it felt as I had to give back  
   to the community, just as I took from them collectively and in a constructive manner.  
-### 3. Having Your Own Creative Corner on the Web 
+### 3. Having My Own Creative Corner on the Web 
   To be honest having a blog is pretty cool! I can show it off to my friends, family and it can help me with my future career ventures. Thus it gives me my own personal space on the web where I can propagate my thoughts and writings; I'd say that is pretty powerful if you think about it from this aspect!  
     
     

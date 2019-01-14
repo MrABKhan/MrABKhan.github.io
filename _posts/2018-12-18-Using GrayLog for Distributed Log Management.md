@@ -34,3 +34,7 @@ There are then two versions of these available :
 GrayLog Collectors are lightweight java applications which read log files natively and send them to the server( or server cluster ) using the [GELF](http://docs.graylog.org/en/2.5/pages/gelf.html) format.
 #### GrayLog Collector Sidecar
 These are the newer and more beefed up version of the Collector. GrayLog Collector Sidecars are complete configuration managment systems which work with different log collection systems as in WinLogBeat,NxLog etc. They are connected via a REST API which enables the GrayLog Server to change configurations or restart/run/shutdown sidecars without needing to manually handle them on each host machine.
+
+
+## How to Use GrayLog with Windows/Linux Logs using Collectors :
+Thus 
