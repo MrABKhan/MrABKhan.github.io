@@ -1,6 +1,6 @@
 --- 
 layout: post    
-title: "Using GrayLog for Distributed Log Management: Installing GrayLog"  
+title: "GrayLog: Installing GrayLog on Docker"  
 excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
 tags: [graylog,graylog,enterpriselogging,linux,windows]
