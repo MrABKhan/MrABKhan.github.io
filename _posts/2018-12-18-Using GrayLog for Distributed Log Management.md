@@ -1,21 +1,15 @@
 --- 
 layout: post    
-title: "Enterprise GrayLog for Distributed Log Management"  
+title: "Using GrayLog for Distributed Log Management"  
 excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
-tags: [jekyll,blogging,introduction]
+tags: [graylog,graylog,enterpriselogging,linux,windows]
 bakar:
    name: AbuBakarKhan
    email: theawesomekhan@gmail.com
    web: http://www.theautodidact.me
 author: bakar
 keywords:
-  - introduction to blogging
-  - jekyll blogging
-  - how to start a blog
-  - blogging as a developer
-  - developer journal
-  - theautodidact.me
 ---    
 
 
