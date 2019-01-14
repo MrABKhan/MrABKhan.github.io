@@ -10,6 +10,17 @@ bakar:
    web: http://www.theautodidact.me
 author: bakar
 keywords:
+  - graylog
+  - logging
+  - how to use graylog
+  - graylog configuration
+  - developer journal
+  - graylog usage
+  - graylog docker
+  - docker
+  - distributed logging
+  - enterprise logging
+  - theautodidact.me
 ---    
 
 
