@@ -24,7 +24,7 @@ keywords:
 ---    
 
 
-# What is GrayLog!? 
+## What is GrayLog!? 
 Graylog is a powerful platform that allows for easy log management of both structured and unstructured data along with debugging applications. It is based on Elasticsearch, MongoDB, and Scala. Graylog has a main server, which receives data from its clients installed on different servers, and a web interface, which visualizes the data and allows to work with logs aggregated by the main server. Thus, when integrated properly with a web app, Graylog helps engineers to analyze the system behavior on almost per code line basis.
 <!--more-->
 ## Our Usage of GrayLog
