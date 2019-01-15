@@ -21,9 +21,10 @@
     <meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
     {% endif %}
 
-    {% if author %}
-    <meta property="article:author" content="Abu" />
-    {% endif %}
+
+    <meta property="article:author" content="AbuBakar Khan" />
+
+    <meta property="og:url" content="{{ site.baseurl }}{{ post.url }}"/>
 
     {% if page.tags %}
     <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
