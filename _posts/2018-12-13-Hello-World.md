@@ -4,7 +4,7 @@ title: "Hello World: My Introduction to Blogging"
 excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
 tags: [jekyll,blogging,introduction]
-image: ({{ site.baseurl }}/images/helloworld.png)
+image: {{ site.baseurl }}/images/helloworld.png
 bakar:
    name: AbuBakarKhan
    email: theawesomekhan@gmail.com
