@@ -62,22 +62,22 @@ GrayLog can be installed on a number of [Operating Systems](http://docs.graylog.
 #### QuickStart GrayLog on Docker
 To simply start GrayLog without any other customization, we can run the following commands to create the environment for GrayLog to run.
 ##### 1. Run MongoDB
-```
+`
 $ docker run --name mongo -d mongo:3
-```
+`
 ##### 2. Time for ElasticSearch
-```
+`
 $ docker run --name elasticsearch \
     -e "http.host=0.0.0.0" -e "xpack.security.enabled=false" \
     -d docker.elastic.co/elasticsearch/elasticsearch:6.5.1
-```
+`
 ##### 3. Linked and Loaded for GrayLog
-```
+`
 $ docker run --link mongo --link elasticsearch \
     -p 9000:9000 -p 12201:12201 -p 514:514 \
     -e GRAYLOG_WEB_ENDPOINT_URI="http://127.0.0.1:9000/api" \
     -d graylog/graylog:2.5
-```
+`
 
 Note that we have to use the same ports opened here through *-p 9000:9000* for our inputs in TCP or if you want to open UDP ports then *-p 9000:9000/udp*.
 
