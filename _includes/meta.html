@@ -13,10 +13,16 @@
 
     <meta property="og:url" content="{{ page.url | absolute_url }}"/>
 
+    {% if page.type %}
     <meta property="og:type" content="article" />
+    {% endif %}
 
 
+    {% if page.image }
     <meta property="og:image" content="{{ page.image }}" />
+    {% else %}
+    <meta property="og:image" content="https://avatars1.githubusercontent.com/u/21154487?s=250&v=4" />
+    {% endif %}
 
     {% if page.title %}
     <meta property="og:title" content="{{ page.title }}" />

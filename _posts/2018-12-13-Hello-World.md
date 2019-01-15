@@ -5,6 +5,7 @@ excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
 tags: [jekyll,blogging,introduction]
 image: https://www.theautodidact.me/images/helloworld.png
+type: blogpost
 bakar:
    name: AbuBakarKhan
    email: theawesomekhan@gmail.com
