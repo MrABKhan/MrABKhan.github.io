@@ -4,7 +4,7 @@ title: "GrayLog: Installing GrayLog on Docker"
 excerpt_separator: <!--more-->
 date: 2018-12-13 16:20:00
 tags: [graylog,graylog,enterpriselogging,linux,windows]
-image: 
+type: something
 bakar:
    name: AbuBakarKhan
    email: theawesomekhan@gmail.com
